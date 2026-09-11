@@ -1,0 +1,149 @@
+Basic formate:-
+ 
+Step=1
+ 
+Tests:-
+ 
+File Name Creation:-
+ 
+ 
+filename.spec.ts -----------filename like this**
+ 
+ 
+ 
+step2:-
+ 
+ 
+**import { test } from '@playwright/test';------------------1 step**
+ 
+ 
+**test('title', async ({ page }) => {--------------2 step**
+ 
+ 
+**await page.goto('https://www.facebook.com/'); ----- Body*
+ 
+ 
+**}); -------3 step ------close**
+ 
+Open The Url:-
+ 
+await page.goto("")
+ 
+ 
+ 
+Step 3:-
+ 
+Excution
+ 
+ 
+npx playwright test filename.spec.ts --headed
+ 
+ 
+npx playwright test filename.spec.ts
+ 
+ 
+step 4:-
+ 
+ 
+**npx playwright show-report**
+
+
+
+
+
+To get easily code:
+
+npx playwright codegen
+
+
+
+id formula:-
+ 
+'#id_value'
+ 
+**class formula:-
+ 
+'.classvalue'
+ 
+ 
+ 
+Css Selector:-
+ 
+Name:-
+ 
+[AttributeName ='AttributeValue']  or  tagname[AttributeName ='AttributeValue']
+
+
+
+
+Drop down ki select option 
+mouse ki hover option
+
+
+Id anapudu locator use cheyali
+
+
+Alt+Shift to get in order or line script
+
+screenshot ki code importance for checking exact issue or bug to raise defect
+
+what type of method use to upload files in automation - setinputfiles
+
+Iframe ki - Framelocator ane method use chestam 
+
+
+
+For Typescript File when we run it, firstly it open JS file then we need to run JS file will get output
+
+Typescript run code - tsc foldername/filename.ts
+JS run code - node foldername/filename.js
+
+
+
+
+
+
+
+PlaywrightProject/
+│
+├── pages/
+│   └── LoginPage.ts
+│
+├── tests/
+│   └── Login.spec.ts
+│
+├── playwright.config.ts
+├── package.json
+└── tsconfig.json
+
+
+
+Git details:
+
+
+Step 1:- Install the git (https://git-scm.com/)
+ 
+Step 2:- GitHub singin (https://github.com/)
+ 
+step3 3:- Create a Repository
+ 
+ 
+git init
+ 
+git add .  (or) git add foldername/filename.spec.ts
+ 
+git commit -m "Initial commit"
+ 
+{git config --global user.email ""
+ 
+git config --global user.name ""}
+ 
+git remote add origin YOUR_GITHUB_REPO_URL
+ 
+git branch -M main
+ 
+git push -u origin main
+
+
+
+ 
