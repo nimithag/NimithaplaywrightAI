@@ -125,7 +125,7 @@ Step 1:- Install the git (https://git-scm.com/)
  
 Step 2:- GitHub singin (https://github.com/)
  
-step3 3:- Create a Repository
+step3 3:- Create a Repository (https)
  
  
 git init
@@ -134,16 +134,27 @@ git add .  (or) git add foldername/filename.spec.ts
  
 git commit -m "Initial commit"
  
-{git config --global user.email ""
+{git config --global user.email "mail"
  
-git config --global user.name ""}
+git config --global user.name "name"}
  
-git remote add origin YOUR_GITHUB_REPO_URL
+git remote add origin YOUR_GITHUB_REPO_URL(copy https code)
  
 git branch -M main
  
 git push -u origin main
+ 
+git status
+ 
+ 
+For Update:-
 
-
+------------
+ 
+git add .   or git add foldername/filename.spec.ts
+ 
+git commit -m "update"
+ 
+git push -u origin main
 
  
