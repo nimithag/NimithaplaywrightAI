@@ -118,7 +118,9 @@ PlaywrightProject/
 
 
 
-Git details:
+
+
+ -----------
 
 
 Step 1:- Install the git (https://git-scm.com/)
@@ -156,5 +158,61 @@ git add .   or git add foldername/filename.spec.ts
 git commit -m "update"
  
 git push -u origin main
+ 
+ 
+For Delete in Github:-
 
+-----------
+
+git rm --cached foldername/filename.spec.ts
+ 
+git commit -m "update"
+ 
+git push -u origin main
+ 
+ 
+For Delete in both VScode and GitHub:-
+
+-------------------------------------
+ 
+git rm tests/AA.spec.ts
+ 
+git commit -m "update"
+ 
+git push -u origin main
+ 
+ 
+Change Repository:-
+ 
+git remote -v                    ------>to see current repository
+ 
+git remote set-url pastNewRepository  -----------> to change the repository
+ 
+git push -u origin main
+ 
+ 
+ 
+ 
+ 
+......................................
+
+For Token:-
+ 
+Open GitHub
+
+GitHub
+
+Click Profile → Settings
+
+Click Developer settings
+
+Click Personal access tokens
+
+Click Tokens (classic)
+
+Click Generate new token
+
+Select Generate new token (classic)
+
+Give token name
  
